@@ -1,0 +1,37 @@
+{
+    "name": "test_router",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Gala",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0", //ядро babel
+        "babel-loader": "^7.1.2", //loader для webpack
+        "babel-preset-env": "^1.6.1", //набор настроек (environment)
+        "babel-preset-react": "^6.24.1", //набор настроек, чтобы babel работал с react (jsx)
+        "copy-webpack-plugin": "^4.2.3", // ** плагин для копирования файлов без изменений
+        "extract-text-webpack-plugin": "^3.0.2", // ** для выделения файла из сборки
+        "html-webpack-plugin": "^2.30.1", // ** плагин для модификации html
+        "image-webpack-loader": "^3.4.2", //loader для картинок (~загружать и сжимать на ходу)
+        "less-loader": "^4.0.5", //loader для less (преобразователь в формат js для webpack)
+        "react-router-hash-link": "^1.1.1", //компонент для работы с хеш-ссылками
+        "rimraf": "^2.6.2", // удаляет все файлы из директории - для очистки (crossplatform)
+        "uglifyjs-webpack-plugin": "^1.1.2", //обфускатор (минификатор) кода (сжатие, выкидывание лишних кусков, запутать)
+        "url-loader": "^0.6.2", //в связке с image-loader - позволяет записать картинку в url
+        "webpack": "^3.10.0", //webpack - система управления сборкой (собрать в 1 файл (или, по настройке, - в более))
+        "webpack-dev-server": "^2.9.5", //dev-server - 
+        "webpack-merge": "^4.1.1" //объединение конфигов
+    }
+}
+
+
+

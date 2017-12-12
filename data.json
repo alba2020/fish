@@ -1,0 +1,38 @@
+{
+
+    "fishes":
+    [
+        {
+            "id": "1",
+            "title": "Amano Shrimp (Caridina multidentata)",
+            "author": "D.R. Brown",
+            "text": "Амано – одна из самых популярных креветок среди аквариумистов. Эта креветка незаменима для очистки аквариума от водорослей. Она прекрасно поедает практически все известные водоросли, включая нитчатку, все сине-зеленые. Единственные водоросли, которые не поедает Амано это красные водоросли, но она препятствует их появлению.",
+            "image": "https://fanfishka.ru/uploads/posts/2017-08/thumbs/1503411599_4.jpg",
+            "selected": false
+        },
+        {
+            "id": "2",
+            "title": "Crossocheilus siamese",
+            "author": "A.R. Snow",
+            "text": "The Siamese algae eater (Crossocheilus oblongus) is a species of freshwater fish in the carp family, Cyprinidae. This bottom-dwelling tropical fish is found in mainland Southeast Asia, including the Chao Phraya and Mekong basins as well as the Malay Peninsula. Its natural habitats are streams and rivers as well as flooded forests during the rainy season. The Siamese algae eater should not be confused with the Flying fox (Epalzeorhynchos kalopterus) or the False siamensis (Garra cambodgiensis).",
+            "image": "https://www.pets4homes.co.uk/images/classifieds/2015/05/22/968615/r-crossocheilus-siamensis-7-8cm-555ecea85f8b6.jpg",
+            "selected": false
+        },
+        {
+            "id": "3",
+            "title": "Corydoras sp. «Black Venezuela»",
+            "author": "B.R. Sunny",
+            "text": "Коридорас венесуэла блэк (Corydoras sp. «Black Venezuela») очень активные игривые рыбки, подходят для содержания в небольших/нано аквариумах. Рыбки черного — темно-коричневого цвета, брюшко светло-серого цвета, плавники также темные, красно-коричневые. Средний размер до 5 см, но могут вырастать до 7,5 см. Относится к семейству панцирных сомов.",
+            "image": "http://aquapiter.com/sites/default/files/imagecache/product_full/tovar/Corydoras_BLACK_VENEZUELA_04.jpg",
+            "selected": false
+        },
+        {
+            "id": "4",
+            "title": "Poecilia wingei",
+            "author": "A.A. Alba",
+            "text": "Первоначально, они открыты Франклином Ф. Бондом (Franklyn F. Bond) в 1937 году, и позднее, в 1975 году, вновь описаны Джоном Эндлером (John Endler) в лагуне Де Патос, город Кумана, север Венесуэлы. В данной области рыбки соседствовали с видом P. reticulata, но не скрещивались с ним. Отсутствие межвидового скрещивания объясняется различием ареала обитания, когда P. reticulata предпочитает быстротекущие реки с холодной водой, в то время как P. wingei изобилуют в теплых стоячих водах.",
+            "image": "http://www.aquamir63.ru/_pu/2/18648196.jpg",
+            "selected": false
+        }
+    ]
+}

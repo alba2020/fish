@@ -1,29 +1,32 @@
 import React, { Component } from "react";
+import PropTypes, { string } from "prop-types";
 
-class SearchBox extends Component {
-  state = {
-    search: ""
-  };
+const SearchBox = props => (
+//    state = {
+//        search: ""
+//        
+//    };
 
-  setSearch = event => {
-    this.setState({
-      search: event.target.value
-    });
-    this.props.setSearchString(event.target.value);
-  };
+//    setSearch = event => {
+////        this.setState({
+////            search: event.target.value
+////        });
+//        this.props.setSearchString(event.target.value);
+//    };
 
-  render() {
-    return (
-      <div>
+    <div>
         <input
-          type="text"
-          value={this.state.search}
-          placeholder="Enter your search..."
-          onChange={this.setSearch}
+            type = "text"
+            value = {props.searchString}
+            placeholder = "Enter your search..."
+            onChange = {props.setSearchString}
         />
-      </div>
-    );
-  }
-}
+    </div>
+);
+
+SearchBox.propTypes = {
+    setSearchStirng: PropTypes.func,
+    searchString: PropTypes.string
+};
 
 export default SearchBox;
